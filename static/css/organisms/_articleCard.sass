@@ -1,0 +1,34 @@
+// ArticleCard element
+.ArticleCard
+	display: flex
+	flex-direction: row
+	flex-wrap: wrap
+	flex-basis: 90%
+	height: 260px
+	margin-bottom: 40px
+	background: $secondaryColor
+
+
+.ArticleCard_leftSide
+	flex: 1.2
+	background-size: cover !important
+	background-repeat: no-repeat !important
+	background-position: 0 0
+
+.ArticleCard_para
+	@extend %para
+	color: $black
+
+.ArticleCard_link
+	@extend %link
+	color: $black
+	
+
+.ArticleCard_rightSide
+	flex: 1
+	padding: 40px 36px
+
+
+
+.ArticleCard_headline
+	@extend %h2

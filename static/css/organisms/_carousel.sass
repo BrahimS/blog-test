@@ -1,0 +1,57 @@
+.Carousel
+	width: 100%
+	height: 400px
+	
+.Carousel_img
+	max-width: 1200px
+	width: 100%
+	background-repeat: no-repeat
+
+.Slider_content
+	display: inline-block
+	width: 40%
+	margin: 100px
+	opacity: 1
+	
+.Slider_headline
+	@extend %h1
+	color: $white
+
+.Slider_para
+	@extend %para
+	color: $white
+
+.Slider_link 
+	@extend %link
+	color: $white
+	
+.Slider_img
+	display: block
+	width: 100%
+	height: 400px
+	background-size: cover !important
+	background-repeat: no-repeat !important
+	background-position: 0 0
+
+	// &:before 
+	// 	content: ''
+	// 	position: absolute
+	// 	top: 0
+	// 	right: 0
+	// 	bottom: 0
+	// 	left: 0
+	// 	background-image: linear-gradient(to right, $black,$white)
+	// 	opacity: 0.8
+
+	
+// Slide controlers rewrite
+.slider-control-centerleft,
+.slider-control-centerright
+	display: none
+
+.slider-control-bottomcenter li button
+	color: $white !important
+	padding: 5px !important
+
+	&:focus
+		font-size: 30px !important
