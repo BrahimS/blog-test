@@ -338,7 +338,7 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "Slider_img",
         style: {
-          background: "url(https://picsum.photos/1500/800/?image=780)"
+          background: "url(https://picsum.photos/1500/800/?image=789)"
         },
         __source: {
           fileName: _jsxFileName,
@@ -383,7 +383,7 @@ function (_Component) {
       }, "Link to the news")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
         className: "Slider_img",
         style: {
-          background: "url(https://picsum.photos/1500/800/?image=787)"
+          background: "url(https://picsum.photos/1500/800/?image=789)"
         },
         __source: {
           fileName: _jsxFileName,
@@ -518,26 +518,11 @@ var _jsxFileName = "/Users/bs/Desktop/bs-blog-next/components/Head.js";
     __self: this
   }, "My page title"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
     name: "viewport",
-    content: "initial-scale=1.0, width=device-width",
+    content: "initial-scale=1, width=device-width",
     key: "viewport",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
-    name: "viewport",
-    content: "initial-scale=1.2, width=device-width",
-    key: "viewport",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
     },
     __self: this
   })));

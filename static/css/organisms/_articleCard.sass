@@ -8,6 +8,9 @@
 	margin-bottom: 40px
 	background: $secondaryColor
 
+	@include mediaQ(small)
+		flex-direction: column
+		height: 500px
 
 .ArticleCard_leftSide
 	flex: 1.2
@@ -28,6 +31,8 @@
 	flex: 1
 	padding: 40px 36px
 
+	@include mediaQ(small)
+		padding: 20px
 
 
 .ArticleCard_headline

@@ -1,11 +1,14 @@
 // Heart icon
 
-
 %heart_card
-  width: 7% 
-  float: right
-  margin-top: -20px
-  margin-right: -10px
+	width: 7% 
+	float: right
+	margin-top: -20px
+	margin-right: -10px
+
+	@include mediaQ(small)
+		margin-top: 10px
+		margin-right: 10px
 
 %heart_single
   width: 25px 
@@ -16,6 +19,4 @@
 .Heart 
   svg
     @extend %heart_card
-    // float: right
-    // margin-top: -20px
-    // margin-right: -10px
+

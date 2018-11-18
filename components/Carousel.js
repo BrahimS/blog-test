@@ -8,7 +8,7 @@ class Carousel extends Component {
 		return (
 			<Fragment>
 				<Slider>
-					<article className="Slider_img" style={{background: "url(https://picsum.photos/1500/800/?image=780)"}}>
+					<article className="Slider_img" style={{background: "url(https://picsum.photos/1500/800/?image=789)"}}>
 						<div className="Slider_content">
 							<h1 className="Slider_headline"> Title One </h1>
 							<p className="Slider_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget leo in nisl finibus aliquam vitae et elit. Nullam nisi eros, euismod vel nisl at, tincidunt elementum leo.</p>
@@ -17,7 +17,7 @@ class Carousel extends Component {
 							</Link>
 						</div>
 					</article>
-					<article className="Slider_img" style={{background: "url(https://picsum.photos/1500/800/?image=787)"}}>
+					<article className="Slider_img" style={{background: "url(https://picsum.photos/1500/800/?image=789)"}}>
 						<div className="Slider_content">
 							<h1 className="Slider_headline"> Title Two </h1>
 							<p className="Slider_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget leo in nisl finibus aliquam vitae et elit. Nullam nisi eros, euismod vel nisl at, tincidunt elementum leo.</p>

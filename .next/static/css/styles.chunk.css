@@ -48,12 +48,19 @@ body {
   height: 100vh;
   margin: 0 auto;
   padding: 20px 50px; }
+  @media (min-width: 1px) and (max-width: 767px) {
+    .Layout {
+      padding: 20px; } }
 
 .AboutPage {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   flex-basis: 36.5%; }
+  @media (min-width: 1px) and (max-width: 767px) {
+    .AboutPage {
+      flex-basis: 50%;
+      flex-direction: column; } }
 
 .AboutPage_leftSide {
   flex: 1;
@@ -61,14 +68,23 @@ body {
   padding-right: 10%;
   padding-bottom: 5%;
   padding-left: 12%; }
+  @media (min-width: 1px) and (max-width: 767px) {
+    .AboutPage_leftSide {
+      flex: 1;
+      padding-top: 0;
+      padding-right: 0;
+      padding-bottom: 20px;
+      padding-left: 0; } }
 
 .AboutPage_rightSide {
   flex: 1;
-  width: 100%;
   height: 460px;
   background-size: cover !important;
   background-repeat: no-repeat !important;
   background-position: 0 0; }
+  @media (min-width: 1px) and (max-width: 767px) {
+    .AboutPage_rightSide {
+      flex: 1; } }
 
 .ContactPage {
   display: flex;
@@ -118,6 +134,9 @@ body {
   line-height: 1.5;
   font-weight: 900;
   font-family: "Lato", sans-serif; }
+  @media (min-width: 1px) and (max-width: 767px) {
+    .AboutPage_headline, .ContactPage_headline, .Single_headline, .Slider_headline {
+      font-size: 1.125em; } }
 
 .ArticleCard_headline {
   text-transform: uppercase;
@@ -131,6 +150,10 @@ body {
   font-weight: 700;
   font-size: 0.875em;
   font-family: "Lato", sans-serif; }
+  @media (min-width: 1px) and (max-width: 767px) {
+    .item_link {
+      margin-left: 20px;
+      font-size: 0.75em; } }
   .item_link a {
     color: #000;
     text-decoration: none; }
@@ -161,12 +184,19 @@ body {
   align-items: flex-start;
   font-size: 3.125em;
   font-weight: 700; }
+  @media (min-width: 1px) and (max-width: 767px) {
+    .Logo {
+      font-size: 1.25em; } }
 
 .Heart svg {
   width: 7%;
   float: right;
   margin-top: -20px;
   margin-right: -10px; }
+  @media (min-width: 1px) and (max-width: 767px) {
+    .Heart svg {
+      margin-top: 10px;
+      margin-right: 10px; } }
 
 .Heart_single svg {
   width: 25px;
@@ -195,11 +225,17 @@ body {
     display: flex;
     justify-content: flex-end;
     margin-top: 30px; }
+    @media (min-width: 1px) and (max-width: 767px) {
+      .Nav__item {
+        margin-top: 10px; } }
 
 .Header {
   display: flex;
   width: 100%;
   min-height: 80px; }
+  @media (min-width: 1px) and (max-width: 767px) {
+    .Header {
+      min-height: 60px; } }
 
 .Carousel {
   width: 100%;
@@ -215,6 +251,10 @@ body {
   width: 40%;
   margin: 100px;
   opacity: 1; }
+  @media (min-width: 1px) and (max-width: 767px) {
+    .Slider_content {
+      width: 80%;
+      margin: 80px 30px; } }
 
 .Slider_headline {
   color: #fff; }
@@ -246,9 +286,12 @@ body {
 .ArticleThread {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   flex-wrap: wrap;
+  justify-content: center;
   padding: 70px 100px; }
+  @media (min-width: 1px) and (max-width: 767px) {
+    .ArticleThread {
+      padding: 30px 10px; } }
 
 .ArticleCard {
   display: flex;
@@ -258,6 +301,10 @@ body {
   height: 260px;
   margin-bottom: 40px;
   background: #F2F2F2; }
+  @media (min-width: 1px) and (max-width: 767px) {
+    .ArticleCard {
+      flex-direction: column;
+      height: 500px; } }
 
 .ArticleCard_leftSide {
   flex: 1.2;
@@ -274,6 +321,9 @@ body {
 .ArticleCard_rightSide {
   flex: 1;
   padding: 40px 36px; }
+  @media (min-width: 1px) and (max-width: 767px) {
+    .ArticleCard_rightSide {
+      padding: 20px; } }
 
 .Form {
   display: flex;

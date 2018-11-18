@@ -5,6 +5,10 @@
 	font-size: em($font_size__base - 2)
 	font-family: $font_family__primary
 
+	@include mediaQ(small)
+		margin-left: 20px
+		font-size: em($font_size__base - 4)
+
 	& a 
 		color: $black
 		text-decoration: none
