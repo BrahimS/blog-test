@@ -4,8 +4,8 @@ import Link from 'next/link'
 import Heart from './Heart'
 
 const ArticleCard = () => (
-			<article className="ArticleCard">
-				<div className="ArticleCard_leftSide" style={{background: "url(https://picsum.photos/1500/800/?image=791)"}}></div>
+	<article className="ArticleCard">
+				<div className="ArticleCard_leftSide" style={{background: "url(https://picsum.photos/1500/800/?image=50)"}}></div>
 				<div className="ArticleCard_rightSide">
 					<div className="Heart">
 						<Heart />

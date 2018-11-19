@@ -1,0 +1,30 @@
+{
+	"plugins": [
+		[
+			"module-resolver",
+			{
+				"root": [
+					"."
+				],
+				"alias": {
+					"styles": "css/"
+				},
+				"cwd": "babelrc"
+			}
+		],
+		[
+			"wrap-in-js",
+			{
+				"extensions": [
+					"css$",
+					"sass$"
+				]
+			}
+		]
+	],
+	"presets": [
+		"next/babel",
+		["@babel/preset-env"]
+	],
+	"ignore": []
+}

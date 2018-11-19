@@ -1,12 +1,10 @@
 import React, { Component, Fragment} from 'react'
-import Head from '../components/Head'
 import Header from '../components/Header'
 import '../static/css/index.sass'
 
 
 const AboutPage = (props) =>  (
 		<section className="Layout">
-      <Head />
       <Header />
       <section className="AboutPage">
         <div className="AboutPage_leftSide">

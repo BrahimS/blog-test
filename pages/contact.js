@@ -1,12 +1,10 @@
 import React, { Component, Fragment} from 'react'
-import Head from '../components/Head'
 import Header from '../components/Header'
 import Form from '../components/Form.js'
 import '../static/css/index.sass'
 
 const ContactPage = (props) =>  (
 	<section className="Layout">
-		<Head />
 		<Header />
 		<section className="ContactPage">
 			<div className="ContactPage_leftSide">
