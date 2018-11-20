@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 1);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -177,37 +177,31 @@ function (_Document) {
           lineNumber: 12
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("title", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 13
-        },
-        __self: this
-      }, " This is a test blog "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
+      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
         rel: "stylesheet",
         href: "/_next/static/css/styles.chunk.css",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 14
+          lineNumber: 13
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("body", {
         className: "Layout",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 15
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_2__["Main"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17
+          lineNumber: 16
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_2__["NextScript"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 17
         },
         __self: this
       })));
@@ -251,7 +245,7 @@ function (_Document) {
 
 /***/ }),
 
-/***/ 0:
+/***/ 1:
 /*!**********************************!*\
   !*** multi ./pages/_document.js ***!
   \**********************************/

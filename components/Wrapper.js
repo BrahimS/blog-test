@@ -2,12 +2,11 @@
 import React, { Fragment } from 'react'
 import Head from 'next/head'
 import Header from './Header'
-import Footer from './Footer'
 import '../static/css/index.sass'
 
 const Wrapper = ({ children, title }) => (
 
-	<Fragment className="Layout">
+	<div className="Layout">
 			<Head>
 				<title>{ title }</title>
 			</Head>
@@ -15,8 +14,7 @@ const Wrapper = ({ children, title }) => (
 			<main>
 				{ children }
 		</main>
-		<Footer />
-	</Fragment>
+	</div>
 
 )
 export default Wrapper

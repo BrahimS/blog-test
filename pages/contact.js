@@ -3,7 +3,7 @@ import Wrapper from '../components/Wrapper'
 import Form from '../components/Form.js'
 
 const ContactPage = (props) =>  (
-	<Wrapper className="Layout">
+	<Wrapper>
 		<Head>
 			<title>This is the contact page</title>
 		</Head>

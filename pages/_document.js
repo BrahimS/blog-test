@@ -10,7 +10,6 @@ class MyDocument extends Document {
 			<html>
 				<Head>
 					<meta name="viewport" content="initial-scale=1, width=device-width" key="viewport" />
-					<title> This is a test blog </title>
 					<link rel="stylesheet" href="/_next/static/css/styles.chunk.css"/>
 				</Head>
 				<body className="Layout">
