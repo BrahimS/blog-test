@@ -1,11 +1,9 @@
 import React, { Component, Fragment} from 'react'
-import Header from '../components/Header'
+import Wrapper from '../components/Wrapper'
 import Form from '../components/Form.js'
-import '../static/css/index.sass'
 
 const ContactPage = (props) =>  (
-	<section className="Layout">
-		<Header />
+	<Wrapper className="Layout">
 		<section className="ContactPage">
 			<div className="ContactPage_leftSide">
 				<h1 className="ContactPage_headline">Contact us</h1>
@@ -15,7 +13,7 @@ const ContactPage = (props) =>  (
 				<Form />
 			</div>
 		</section>
-	</section>
+	</Wrapper>
 )
 
 export default ContactPage

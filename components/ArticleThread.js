@@ -1,4 +1,3 @@
-import React, { Component } from 'react'
 import ArticleCard from './ArticleCard'
 
 const ArticleThread = (data) => {

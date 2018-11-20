@@ -14,7 +14,7 @@ export default class MyDocument extends Document {
 					<title> This is a test blog </title>
 					<link rel="stylesheet" href="/_next/static/css/styles.chunk.css"/>
 				</Head>
-				<body className="">
+				<body className="Layout">
 					<Main />
 					<NextScript />
 				</body>

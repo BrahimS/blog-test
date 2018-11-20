@@ -1,11 +1,10 @@
 import React, { Component, Fragment} from 'react'
-import Header from '../components/Header'
-import '../static/css/index.sass'
+import Wrapper from '../components/Wrapper'
+
 
 
 const AboutPage = (props) =>  (
-		<section className="Layout">
-      <Header />
+		<Wrapper className="">
       <section className="AboutPage">
         <div className="AboutPage_leftSide">
 				<h1 className="AboutPage_headline">About us</h1>
@@ -14,13 +13,9 @@ const AboutPage = (props) =>  (
 				</p>
 				</div>
         <div className="AboutPage_rightSide" style={{background: "url(https://picsum.photos/1500/800/?image=780)"}}>
-
 				</div>
       </section>
-		</section>
+		</Wrapper>
 )
-
-
-
 
 export default AboutPage

@@ -193,7 +193,7 @@ function (_Document) {
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("body", {
-        className: "",
+        className: "Layout",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 17
