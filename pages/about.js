@@ -1,10 +1,14 @@
-import React, { Component, Fragment} from 'react'
+import React, { Component, Fragment } from 'react'
+import Head from 'next/head'
 import Wrapper from '../components/Wrapper'
 
 
 
 const AboutPage = (props) =>  (
-		<Wrapper className="">
+	<Wrapper className="">
+			<Head>
+				<title>This is the about page</title>
+			</Head>
       <section className="AboutPage">
         <div className="AboutPage_leftSide">
 				<h1 className="AboutPage_headline">About us</h1>

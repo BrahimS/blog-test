@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react'
+import Head from 'next/head'
 import fetch from 'isomorphic-unfetch'
 import Wrapper from '../components/Wrapper'
 import ArticleThread from '../components/ArticleThread'
@@ -16,6 +17,9 @@ class HomePage extends Component {
 		return (
 			<Wrapper>		
 				{console.log(this.props.data)}
+				<Head>
+					<title>This is the home page</title>
+				</Head>
 					<section className="Carousel">
 						<Carousel 
 							title={this.props.data.L96745.title} 

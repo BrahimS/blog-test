@@ -1,9 +1,12 @@
-import React, { Component, Fragment} from 'react'
+import Head from 'next/head'
 import Wrapper from '../components/Wrapper'
 import Form from '../components/Form.js'
 
 const ContactPage = (props) =>  (
 	<Wrapper className="Layout">
+		<Head>
+			<title>This is the contact page</title>
+		</Head>
 		<section className="ContactPage">
 			<div className="ContactPage_leftSide">
 				<h1 className="ContactPage_headline">Contact us</h1>
