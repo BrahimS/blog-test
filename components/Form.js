@@ -1,20 +1,41 @@
 import React, { Component } from 'react'
 
 class Form extends Component {
+	constructor(props) {
+		super(props)
+			this.state = {
+				firstName: '',
+				lastName: '',
+				company: '',
+				company: '',
+				message: ''
+			}
+	}
+	submitForm(event) {
+		event.preventDefault()
+		const formData = this.state
+		console.table(formData)
+	}
+	handleInputChange(event) {
+		this.setState({
+			[event.target.name]: event.target.value
+		})
+
+	}
 	render() {
 		return (
-			<form className="Form">
+			<form className="Form" onSubmit={this.submitForm.bind(this)}>
 			<div className="Form_step1">
 				<label htmlFor="firstName"> First Name
-					<input type="text" name="firstName" required/>
+					<input type="text" name="firstName" onChange={this.handleInputChange.bind(this)} required/>
 				</label>
 				<label htmlFor="lastName"> Last Name
-					<input type="text" name="lastName" required/>
+					<input type="text" name="lastName" onChange={this.handleInputChange.bind(this)} required/>
 				</label>
 			</div>
 			<div className="Form_step2">
 				<label htmlFor="company"> Company
-					<input type="text" name="company" required/>
+					<input type="text" name="company" onChange={this.handleInputChange.bind(this)}  required/>
 				</label>
 				<label htmlFor="selectAvailability"> Select your availability
 					<select className="Form_select" required>
@@ -26,7 +47,7 @@ class Form extends Component {
 				</label>
 				<div className="Form_step3">
 					<label htmlFor="message"> Message
-						<textarea type="text" name="message" required/>
+						<textarea type="text" name="message" onChange={this.handleInputChange.bind(this)} required/>
 					</label>
 				</div>
 			</div>
