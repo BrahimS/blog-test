@@ -182,6 +182,10 @@ body {
   width: 25px;
   margin-top: -2px;
   margin-left: 25px; }
+.Heart_grey {
+  fill: grey; }
+.Heart_red {
+  fill: red; }
 .Slider_para, .ArticleCard_para {
   margin-top: 10px;
   line-height: 1.5;
