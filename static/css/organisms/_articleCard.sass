@@ -7,17 +7,27 @@
 	margin-bottom: 40px
 	background: $secondaryColor
 
-	&:nth-child(even)
-		.ArticleCard_leftSide
-			order: 2
+	@include mediaQ(large)
+		&:nth-child(even)
+			.ArticleCard_leftSide
+				order: 2
 
 	@include mediaQ(small)
 		flex-direction: column
 		height: 500px
+		flex-basis: 100%
+		
+		&:nth-child()
+			.ArticleCard_leftSide
+				order: none
 
 	@include mediaQ(medium)
 		flex-basis: 100%
 		height: 310px
+
+		&:nth-child(even)
+			.ArticleCard_leftSide
+				order: 1
 
 .ArticleCard_leftSide
 	flex: 1.2

@@ -175,8 +175,12 @@ body {
   margin-right: -10px; }
 @media (min-width: 1px) and (max-width: 767px) {
     .Heart svg {
-      margin-top: 10px;
-      margin-right: 10px; } }
+      margin-top: -10px;
+      margin-right: -5px; } }
+@media (min-width: 768px) and (max-width: 1024px) {
+    .Heart svg {
+      margin-top: -10px;
+      margin-right: -5px; } }
 .Heart_single svg {
   width: 25px;
   margin-top: -2px;
@@ -197,12 +201,6 @@ body {
   border-radius: 50%;
   background: #028090;
   font-size: 0.8125em; }
-@media (min-width: 1px) and (max-width: 767px) {
-    .Heart_counter {
-      margin-left: 85%; } }
-@media (min-width: 768px) and (max-width: 1024px) {
-    .Heart_counter {
-      margin-left: 90%; } }
 .Heart_grey {
   fill: grey; }
 .Heart_red {
@@ -210,6 +208,8 @@ body {
 .Heart_single .Heart_wrapper {
   display: flex;
   height: 40px; }
+.Heart_single .Heart_counter {
+  margin-left: -8px; }
 .Slider_para, .ArticleCard_para {
   margin-top: 10px;
   line-height: 1.5;
@@ -241,8 +241,8 @@ body {
   bottom: 0;
   left: 0;
   display: flex;
-  padding-left: 40px;
-  justify-content: flex-start;
+  justify-content: center;
+  padding: 40px;
   align-items: center;
   width: 100%;
   height: 60px;
@@ -300,7 +300,7 @@ body {
   padding: 70px 100px; }
 @media (min-width: 1px) and (max-width: 767px) {
     .ArticleThread {
-      padding: 30px 10px; } }
+      padding: 30px 0; } }
 @media (min-width: 768px) and (max-width: 1024px) {
     .ArticleThread {
       padding: 30px 0; } }
@@ -311,16 +311,22 @@ body {
   flex-basis: 90%;
   margin-bottom: 40px;
   background: #F2F2F2; }
-.ArticleCard:nth-child(even) .ArticleCard_leftSide {
-    order: 2; }
+@media (min-width: 1025px) {
+    .ArticleCard:nth-child(even) .ArticleCard_leftSide {
+      order: 2; } }
 @media (min-width: 1px) and (max-width: 767px) {
     .ArticleCard {
       flex-direction: column;
-      height: 500px; } }
+      height: 500px;
+      flex-basis: 100%; }
+      .ArticleCard:nth-child .ArticleCard_leftSide {
+        order: none; } }
 @media (min-width: 768px) and (max-width: 1024px) {
     .ArticleCard {
       flex-basis: 100%;
-      height: 310px; } }
+      height: 310px; }
+      .ArticleCard:nth-child(even) .ArticleCard_leftSide {
+        order: 1; } }
 .ArticleCard_leftSide {
   flex: 1.2;
   background-size: cover !important;
@@ -352,11 +358,13 @@ body {
     margin-bottom: 40px;
     width: 100%;
     height: 40px;
+    padding: 2%;
     border: 1px solid #D0D0D0; }
 .Form textarea {
     margin-bottom: 40px;
     width: 100%;
     height: 190px;
+    padding: 2%;
     border: 1px solid #D0D0D0; }
 .Form_select {
     margin-bottom: 40px;

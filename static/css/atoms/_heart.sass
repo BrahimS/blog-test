@@ -7,8 +7,13 @@
 	margin-right: -10px
 
 	@include mediaQ(small)
-		margin-top: 10px
-		margin-right: 10px
+		margin-top: -10px
+		margin-right: -5px
+
+	@include mediaQ(medium)
+		margin-top: -10px
+		margin-right: -5px
+
 
 %heart_single
   width: 25px 
@@ -20,10 +25,13 @@
 	height: 40px
 	justify-content: flex-end
 
+	@include mediaQ(small)
+
 .Heart 
   svg
     @extend %heart_card
 		cursor: pointer
+		
 
 .Heart_counter
 	display: inline-flex
@@ -36,13 +44,6 @@
 	background: $blueGreen
 	font-size: em($font_size__base - 3)
 
-	@include mediaQ(small)
-		margin-left: 85%
-
-	@include mediaQ(medium)
-		margin-left: 90%
-
-
 .Heart_grey
 	fill: $grey
 	
@@ -50,12 +51,10 @@
 	fill: $complimentryColor
 
 
-
 .Heart_single .Heart_wrapper 
 	display: flex
 	height: 40px
 
 .Heart_single .Heart_counter
-	// position: absolute
-	// margin-left: 38px
-	// margin-top: -8px
+	margin-left: -8px
+

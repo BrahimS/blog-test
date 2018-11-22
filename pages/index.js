@@ -29,7 +29,7 @@ class HomePage extends Component {
 											<div className="Slider_content">
 												<h1 className="Slider_headline"> {post.title}</h1>
 												<p className="Slider_para">{post.resume}</p>
-												<Link href="/">
+												<Link href={post.link}>
 													<a className="Slider_link">Link to the news</a>
 												</Link>
 											</div>
