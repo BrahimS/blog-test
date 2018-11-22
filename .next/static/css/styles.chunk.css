@@ -311,6 +311,8 @@ body {
   flex-basis: 90%;
   margin-bottom: 40px;
   background: #F2F2F2; }
+.ArticleCard:nth-child(even) .ArticleCard_leftSide {
+    order: 2; }
 @media (min-width: 1px) and (max-width: 767px) {
     .ArticleCard {
       flex-direction: column;

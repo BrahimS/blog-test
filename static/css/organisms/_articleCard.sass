@@ -4,9 +4,12 @@
 	flex-direction: row
 	flex-wrap: wrap
 	flex-basis: 90%
-	// height: 260px
 	margin-bottom: 40px
 	background: $secondaryColor
+
+	&:nth-child(even)
+		.ArticleCard_leftSide
+			order: 2
 
 	@include mediaQ(small)
 		flex-direction: column
@@ -30,14 +33,12 @@
 	@extend %link
 	color: $black
 	
-
 .ArticleCard_rightSide
 	flex: 1
 	padding: 40px 36px
 
 	@include mediaQ(small)
 		padding: 20px
-
 
 .ArticleCard_headline
 	@extend %h2

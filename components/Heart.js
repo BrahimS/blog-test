@@ -8,7 +8,6 @@ class Heart extends Component {
 		}
 	}
 
-	
 	handleClick (event)  {
 			event.preventDefault()
 			this.setState(
@@ -18,7 +17,6 @@ class Heart extends Component {
 			)
 	}
 	render () {
-
 		return (
 			<div className="Heart_wrapper">
 				<svg
