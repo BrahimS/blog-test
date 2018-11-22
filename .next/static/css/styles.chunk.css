@@ -181,19 +181,21 @@ body {
   width: 25px;
   margin-top: -2px;
   margin-left: 25px; }
+.Heart_wrapper {
+  display: flex;
+  height: 40px;
+  justify-content: flex-end; }
+.Heart {
+  cursor: pointer; }
 .Heart_counter {
-  position: relative;
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  margin-left: 100%;
-  margin-top: -4%;
   width: 19px;
   height: 18px;
   color: #fff;
   border-radius: 50%;
   background: #028090;
-  text-align: center;
   font-size: 0.8125em; }
 @media (min-width: 1px) and (max-width: 767px) {
     .Heart_counter {
@@ -201,16 +203,13 @@ body {
 @media (min-width: 768px) and (max-width: 1024px) {
     .Heart_counter {
       margin-left: 90%; } }
-.Heart {
-  cursor: pointer; }
 .Heart_grey {
   fill: grey; }
 .Heart_red {
   fill: #FF5252; }
-.Heart_single .Heart_counter {
-  position: absolute;
-  margin-left: 38px;
-  margin-top: -8px; }
+.Heart_single .Heart_wrapper {
+  display: flex;
+  height: 40px; }
 .Slider_para, .ArticleCard_para {
   margin-top: 10px;
   line-height: 1.5;
@@ -266,7 +265,7 @@ body {
 .Slider_content {
   display: inline-block;
   width: 40%;
-  margin: 100px;
+  margin: 122px;
   opacity: 1; }
 @media (min-width: 1px) and (max-width: 767px) {
     .Slider_content {
