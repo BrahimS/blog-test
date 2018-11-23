@@ -9182,7 +9182,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Volumes/2Cie/Clients/BS/Todo/INPROGRESS/bs-blog-next/pages/_app.js";
+var _jsxFileName = "/Users/bs/Desktop/__Tuts/nextBlog/bs-blog-next/pages/_app.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 

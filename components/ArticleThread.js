@@ -1,11 +1,13 @@
 import ArticleCard from './ArticleCard'
 import ArticleData from '../data/data.json'
+import { getData } from '../api/index'
 
 const ArticleThread = (props) => {
+	
 	return (
 		<section className="ArticleThread">
 				{
-					ArticleData
+					props.posts
 					.map((post, index) => {
 						return (
 							<ArticleCard 
@@ -18,7 +20,6 @@ const ArticleThread = (props) => {
 						})
 				}
 				
-			
 			</section>
 	)
 }
