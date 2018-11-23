@@ -43,7 +43,6 @@ const HomePage = ( { posts } )  => (
 		)
 
 HomePage.getInitialProps = async ({ request }) => {
-	const url = 'https://raw.githubusercontent.com/BrahimS/bs-blog-next/master/data/data.json'
 	const response = await getData()
 	const posts = await response.json()
 	return { posts }
