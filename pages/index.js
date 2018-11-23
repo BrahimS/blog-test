@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Link from 'next/link'
-import fetch from 'isomorphic-unfetch'
 import { getData } from '../api/index'
 import Head from 'next/head'
 import Wrapper from '../components/Wrapper'

@@ -12,7 +12,7 @@ const ArticleCard = (props) => (
 			</div>
 			<h2 className="ArticleCard_headline">{props.title}</h2>
 			<p className="ArticleCard_para">{props.body}</p>
-			<Link href="/single">
+			<Link href={props.link}>
 				<a className="ArticleCard_link">Link to the news</a>
 			</Link>
 		</div>
