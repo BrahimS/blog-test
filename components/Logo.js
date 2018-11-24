@@ -1,5 +1,3 @@
+const Logo = () => <h1 className="Logo">Logo</h1>;
 
-
-const Logo = () => ( <h1 className="Logo">Logo</h1>)
- 
-export default Logo
+export default Logo;

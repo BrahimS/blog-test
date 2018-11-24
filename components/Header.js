@@ -1,11 +1,11 @@
-import Logo from './Logo'
-import Nav from './Nav'
+import Logo from './Logo';
+import Nav from './Nav';
 
-const Header = () => (					
+const Header = () => (
 	<header className="Header">
 		<Logo />
 		<Nav />
 	</header>
-)
+);
 
-export default Header
+export default Header;

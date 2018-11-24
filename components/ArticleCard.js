@@ -1,11 +1,10 @@
+import React, {Fragment} from 'react';
+import Link from 'next/link';
+import Heart from './Heart';
 
-import React, { Fragment } from 'react'
-import Link from 'next/link'
-import Heart from './Heart'
-
-const ArticleCard = (props) => (
-	<article className="ArticleCard">	
-		<div className="ArticleCard_leftSide" style={{background: `url(${props.image})`}}></div>
+const ArticleCard = props => (
+	<article className="ArticleCard">
+		<div className="ArticleCard_leftSide" style={{background: `url(${props.image})`}} />
 		<div className="ArticleCard_rightSide">
 			<div className="Heart">
 				<Heart />
@@ -17,6 +16,6 @@ const ArticleCard = (props) => (
 			</Link>
 		</div>
 	</article>
-)
+);
 
-export default ArticleCard
+export default ArticleCard;
