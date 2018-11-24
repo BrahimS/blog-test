@@ -1,24 +1,23 @@
 import ArticleCard from './ArticleCard'
-import ArticleData from '../data/data.json'
 
 const ArticleThread = (props) => {
 	return (
 		<section className="ArticleThread">
-				{
-					ArticleData
-					.map((post, index) => {
+			{
+				props.posts
+					.map((post) => {
 						return (
 							<ArticleCard 
-								key={post.id}
-								title={post.title}
-								body={post.resume}
-								image={post.image}
+									key={post.id}
+									title={post.title}
+									body={post.resume}
+									image={post.image}
+									link={post.image}
 							/>	
-							)
-						})
-				}
+						)
+				})
+			}	
 				
-			
 			</section>
 	)
 }
