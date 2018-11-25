@@ -3,9 +3,7 @@
 		[
 			"module-resolver",
 			{
-				"root": [
-					"."
-				],
+				"root": ["."],
 				"alias": {
 					"styles": "css/"
 				},
@@ -15,16 +13,10 @@
 		[
 			"wrap-in-js",
 			{
-				"extensions": [
-					"css$",
-					"sass$"
-				]
+				"extensions": ["css$", "sass$"]
 			}
 		]
 	],
-	"presets": [
-		"next/babel",
-		["@babel/preset-env"]
-	],
+	"presets": ["next/babel", ["@babel/preset-env"]],
 	"ignore": []
 }
