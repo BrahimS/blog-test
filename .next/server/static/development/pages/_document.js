@@ -190,21 +190,21 @@ function (_Document) {
         content: "ie=edge",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 14
+          lineNumber: 18
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         description: "",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15
+          lineNumber: 19
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         keyword: "",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 20
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
@@ -212,26 +212,26 @@ function (_Document) {
         href: "/_next/static/css/styles.chunk.css",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17
+          lineNumber: 21
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("body", {
         className: "Layout",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 23
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_2__["Main"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20
+          lineNumber: 24
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_2__["NextScript"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 25
         },
         __self: this
       })));

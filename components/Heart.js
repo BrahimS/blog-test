@@ -10,10 +10,31 @@ class Heart extends Component {
 
 	handleClick(event) {
 		event.preventDefault();
-		this.setState({
-			count: this.state.count + 1
+		this.setState(prevState => {
+			return {
+				count: ++prevState.count
+			};
 		});
 	}
+
+	/*
+	TODO: Add localStorage to persist the data the likes value
+	FIXME:  Need to find a way to make the localstorage more specific to each ArticleCard 
+	*/
+
+	componentDidUpdate() {
+		localStorage.setItem('likes', JSON.stringify(this.state));
+	}
+
+	componentDidMount() {
+		const localData = localStorage.getItem('likes');
+		if (localData) {
+			this.setState(prevState => {
+				return JSON.parse(localData);
+			});
+		}
+	}
+
 	render() {
 		return (
 			<div className="Heart_wrapper">
